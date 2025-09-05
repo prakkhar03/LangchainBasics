@@ -34,7 +34,7 @@ load_dotenv()
 # max_retries means if the model fails to respond it will retry 3 times
 
 
-from langchain_huggingface import ChatHuggingFace, HuggingFacePipeline
+from langchain_huggingface import ChatHuggingFace, HuggingFacePipeline # type: ignore
 import os
 
 os.environ['HF_HOME'] = 'D:/huggingface_cache'
