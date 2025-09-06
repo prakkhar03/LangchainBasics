@@ -6,3 +6,5 @@ model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2
 documents = ['What is the capital of India', 'What is the capital of USA', 'What is the capital of UK', 'What is the capital of Australia']
 result = model.embed_documents(documents)
 print(result)
+
+#what is embedding?
