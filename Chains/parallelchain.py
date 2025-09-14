@@ -59,9 +59,10 @@ The support vector machines in scikit-learn support both dense (numpy.ndarray) a
 """
 
 # Run the chain
-result = chain.invoke({"text": text})
+# result = chain.invoke({"text": text})
 
-print(result)
+# print(result)
 
 # Visualize chain flow
+
 chain.get_graph().print_ascii()
